@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/display"
+                style="@style/CustomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/display_result"
+                    style="@style/CustomTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/CustomButton"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/CustomButton"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/CustomButton"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/plus_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="+"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/CustomButton"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/CustomButton"
+                android:text="5"/>
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/CustomButton"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/minus_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="-"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/CustomButton"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/CustomButton"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/CustomButton"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/multiply_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="x"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/CustomButton"
+                android:layout_weight="0.67"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/decimal_button"
+                style="@style/CustomButton"
+                android:text="." />
+
+            <Button
+                android:id="@+id/divide_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="/"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/clearAll_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="AC" />
+            <Button
+                android:id="@+id/clear_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/save"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="S"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/recall"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="R"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/equals_button"
+                style="@style/CustomButton"
+                android:backgroundTint="@color/ORANGE"
+                android:text="="
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
